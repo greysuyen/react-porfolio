@@ -1,7 +1,8 @@
 function Projects() {
   return (
     <div>
-      <h1>Contact</h1>
+      <hr/>
+      <h2>My education</h2>
       <p>Contact us through this page. Lorem ipsum dolor sit amet.</p>
     </div>
   )
