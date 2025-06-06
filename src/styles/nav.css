@@ -1,0 +1,91 @@
+.nav a.active {
+    color: rgb(142, 172, 255);
+}
+
+p,h2 {
+    color: white;
+}
+.proj-img img{
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: -5px;
+}
+.stack-container{
+    border: 1px solid white;
+    background-color: rgba(44, 44, 44, 0.781);
+    height: 390px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+.stack-continer, .tools {
+    padding-right: 10px; 
+
+}
+.tech-stacks, .tools {
+    padding: 10px;
+}
+
+@media (min-width: 200px) {
+    .proj-img img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (min-width: 450px) {
+    .proj-img img {
+        height: 33px;
+        width: 33px;
+    }
+}
+
+@media (min-width: 600px) {
+    .proj-img img {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media (min-width: 760px) {
+    .proj-img img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (min-width: 900px) {
+    .proj-img img {
+        height: 42px;
+        width: 42px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .proj-img img {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .proj-img img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .proj-img img {
+        height: 55px;
+        width: 55px;
+    }
+}
+
+#stack {
+    text-align: center;
+}

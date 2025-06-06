@@ -1,5 +1,5 @@
 body {
-    padding: 0 10rem;
+    padding-inline-start: 0 2rem;
     margin: 4rem auto;
     background-color: rgb(29, 29, 29);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -88,4 +88,8 @@ body {
     text-align: center;
     color: rgb(86, 106, 163);
     margin-bottom: 2rem;
+}
+
+#stack-p2 {
+    margin-bottom: rem;
 }
