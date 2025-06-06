@@ -1,11 +1,9 @@
-import Header from './components/Header.jsx'
-import Content from './components/Content.jsx'
+import Home from './components/Home.jsx'
 
 const App = () => {
   return(
     <>
-      <Header />
-      <Content />
+      <Home />
     </>
   );
 }

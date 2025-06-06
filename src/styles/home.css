@@ -1,0 +1,82 @@
+body {
+    padding: 0 10rem;
+    margin: 4rem auto;
+    background-color: rgb(29, 29, 29);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+}
+.nav a {
+    font-weight: 100;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.nav a:hover {
+    color: cyan;
+    transition: .2s ease;
+}
+.content {
+    color: white;
+}
+
+.profile {
+    justify-content: center;
+    display: flex;
+}
+
+.profile img {
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+@media (min-width: 200px) {
+    body {
+        padding: 0 1rem;
+    }
+}
+@media (min-width: 450px) {
+    body {
+        padding: 0 4rem;
+    }
+}
+@media (min-width: 600px) {
+    body {
+        padding: 0 6rem;
+    }
+}
+
+@media (min-width: 760px) {
+    body {
+        padding: 0 9rem;
+    }
+}
+@media (min-width: 900px) {
+    body {
+        padding: 0 13rem;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        padding: 0 15rem;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        padding: 0 18rem;
+    }
+}
+@media (min-width: 1400px) {
+    body {
+        padding: 0 20rem;
+    }
+}
