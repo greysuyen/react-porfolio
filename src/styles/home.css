@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 
 }
 .nav a {
@@ -20,7 +20,7 @@ body {
 }
 
 .nav a:hover {
-    color: cyan;
+    color: rgb(151, 177, 247);
     transition: .2s ease;
 }
 .content {
@@ -79,4 +79,13 @@ body {
     body {
         padding: 0 20rem;
     }
+}
+
+.name h1 {
+    font-family: none;
+    font-weight: 100;
+    margin-top: -2px;
+    text-align: center;
+    color: rgb(86, 106, 163);
+    margin-bottom: 2rem;
 }
