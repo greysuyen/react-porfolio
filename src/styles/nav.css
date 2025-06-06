@@ -24,7 +24,6 @@ p,h2 {
 }
 .stack-continer, .tools {
     padding-right: 10px; 
-
 }
 .tech-stacks, .tools {
     padding: 10px;
@@ -81,11 +80,11 @@ p,h2 {
 
 @media (min-width: 1400px) {
     .proj-img img {
-        height: 55px;
-        width: 55px;
+        height: 50px;
+        width: 50px;
     }
 }
 
-#stack {
+#stack,#tools {
     text-align: center;
 }
