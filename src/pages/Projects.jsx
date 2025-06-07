@@ -61,32 +61,95 @@ export function Projects() {
   return (
     <>
       <div className="stack-container">
-        <div className="tech-stacks">
-
-        <h2 id='stack'>Tech Stacks</h2>
-        <div className="proj-img" style={{ display: 'flex', gap: '30px', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center'}}>
-          {stacks1.map(({ name, url }) => (
-            <div key={name} style={{ flexDirection: 'column', alignItems: 'center' }}>
-              <img src={url} alt={name} />
-              <h3 style={{ marginTop: '8px', fontSize: '14px', color: 'lightgray', fontWeight: 100, textAlign: 'center', }}>{name}</h3>
+        <div
+          className="tech-tools-wrapper"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'flex-start',
+            gap: '60px',
+            flexWrap: 'wrap',
+            width: '100%',
+          }}
+        >
+          {/* Tech Stacks - Left */}
+          <div style={{ flex: 1, minWidth: 250 }}>
+            <h2 id="stack">Tech Stacks</h2>
+            <div
+              className="proj-img"
+              style={{
+                display: 'flex',
+                gap: '30px',
+                flexWrap: 'wrap',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              {stacks1.map(({ name, url }) => (
+                <div
+                  key={name}
+                  style={{
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    display: 'flex',
+                  }}
+                >
+                  <img src={url} alt={name} />
+                  <h3
+                    style={{
+                      marginTop: '8px',
+                      fontSize: '14px',
+                      color: 'lightgray',
+                      fontWeight: 100,
+                      textAlign: 'center',
+                    }}
+                  >
+                    {name}
+                  </h3>
+                </div>
+              ))}
             </div>
-          ))}
           </div>
-          <h2 id='tools'>Tools</h2>
-          <div className="proj-img" style={{ display: 'flex', gap: '30px', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center'}}>
-            {tools.map(({ name, url }) => (
-              <div key={name} style={{ flexDirection: 'column', alignItems: 'center' }}>
-                <img src={url} alt={name} />
-                <h3 style={{ marginTop: '8px', fontSize: '14px', color: 'lightgray', fontWeight: 100, textAlign: 'center', }}>{name}</h3>
-              </div>
-            ))}
+          {/* Tools - Right */}
+          <div style={{ flex: 1, minWidth: 250 }}>
+            <h2 id="tools">Tools</h2>
+            <div
+              className="proj-img"
+              style={{
+                display: 'flex',
+                gap: '30px',
+                flexWrap: 'wrap',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              {tools.map(({ name, url }) => (
+                <div
+                  key={name}
+                  style={{
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    display: 'flex',
+                  }}
+                >
+                  <img src={url} alt={name} />
+                  <h3
+                    style={{
+                      marginTop: '8px',
+                      fontSize: '14px',
+                      color: 'lightgray',
+                      fontWeight: 100,
+                      textAlign: 'center',
+                    }}
+                  >
+                    {name}
+                  </h3>
+                </div>
+              ))}
+            </div>
           </div>
-  
         </div>
-       
-    </div>    
-
-  
+      </div>
     </>
   );
 }
