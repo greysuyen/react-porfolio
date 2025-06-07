@@ -3,7 +3,7 @@ import '../styles/projects.css'
 const Projects = () => {
     return(
         <>
-            <h2 id="title">Projects</h2>
+            {/* <h2 id="title">Projects</h2>
             <div className="projects">
                 <div className="content">
                     <div className="desc">
@@ -13,9 +13,8 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
-
     );
 }
 

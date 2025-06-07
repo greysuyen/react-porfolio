@@ -53,8 +53,9 @@ p,h2 {
         height: 30px;
         width: 30px;
     }
-    .nav {
-        font-size: 15px;
+    .nav a{
+        font-size: 18px;
+        gap: 1.3rem;
     }
 }
 
@@ -63,12 +64,21 @@ p,h2 {
         height: 33px;
         width: 33px;
     }
+    .nav a{
+        font-size: 20px;
+        gap: 1.4rem;
+    }
+    
 }
 
 @media (min-width: 600px) {
     .proj-img img {
         height: 33px;
         width: 33px;
+    }
+    .nav a{
+        font-size: 21px;
+        gap: 1.5rem;
     }
 }
 
@@ -77,12 +87,20 @@ p,h2 {
         height: 37px;
         width: 37px;
     }
+    .nav {
+        font-size: 23px;
+        gap: 1.5rem;
+    }
 }
 
 @media (min-width: 900px) {
     .proj-img img {
         height: 40px;
         width: 40px;
+    }
+    .nav {
+        font-size: 24px;
+        gap: 1.7rem;
     }
 }
 
@@ -91,6 +109,10 @@ p,h2 {
         height: 45px;
         width: 45px;
     }
+    .nav {
+        font-size: 25px;
+        gap: 1.8rem;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -98,8 +120,15 @@ p,h2 {
         height: 50px;
         width: 50px;
     }
+    .nav {
+        font-size: 25px;
+        gap: 2rem;
+    }
 }
 
 #stack,#tools {
     text-align: center;
+}
+.nav {
+    text-wrap: nowrap;
 }
