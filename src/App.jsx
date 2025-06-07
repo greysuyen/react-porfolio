@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <>
         <Profile />
         <Navbar />
