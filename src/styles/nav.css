@@ -24,7 +24,6 @@ p,h2 {
 }
 .stack-continer, .tools {
     padding-right: 10px; 
-
 }
 .tech-stacks, .tools {
     padding: 10px;
@@ -78,8 +77,6 @@ p,h2 {
         width: 50px;
     }
 }
-
-
 
 #stack,#tools {
     text-align: center;
