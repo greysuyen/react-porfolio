@@ -1,4 +1,3 @@
-import chow from '../assets/images/chow.jpg'
 import '../styles/home.css';
 
 const Home = () => {

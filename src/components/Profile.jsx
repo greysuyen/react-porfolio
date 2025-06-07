@@ -1,11 +1,11 @@
 import '../styles/home.css'
-import chow from '../assets/images/chow.jpg'
+import myicon from '../assets/images/myicon.png'
 const Profile = () => {
     return(
         <header>
             {/* Profile */}
             <div className="profile">
-                <img src={chow} alt="profile" /> 
+                <img src={myicon} alt="profile" /> 
             </div>
             
             {/* Full name */}
