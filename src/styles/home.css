@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 
 }
 .nav a {
